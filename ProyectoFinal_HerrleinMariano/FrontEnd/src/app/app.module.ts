@@ -12,8 +12,11 @@ import { HardSoftComponent } from './components/hard-soft/hard-soft.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { ProyectoComponent } from './components/proyecto/proyecto.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { HttpClientModule} from '@angular/common/http'
-
+import { HttpClientModule} from '@angular/common/http';
+import { HomeComponent } from './components/home/home.component';
+import { LoginComponent } from './components/login/login.component'
+import { ReactiveFormsModule } from '@angular/forms';
+import { NgClass } from '@angular/common';
 
 
 @NgModule({
@@ -27,6 +30,8 @@ import { HttpClientModule} from '@angular/common/http'
     HardSoftComponent,
     ProyectoComponent,
     FooterComponent,
+    HomeComponent,
+    LoginComponent,
 
    
     
@@ -36,7 +41,8 @@ import { HttpClientModule} from '@angular/common/http'
     BrowserModule,
     AppRoutingModule,
     NgCircleProgressModule.forRoot({}),
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
