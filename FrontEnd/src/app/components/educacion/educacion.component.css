@@ -4,9 +4,20 @@
 }
 div{
     background-color: rgb(202, 202, 202);
-    
 }  
 
 h1,h3{
     display: inline;
+}
+.table{
+    display: inline;
+     width: 50%; 
+         /* border-color: inherit; */
+    border-style:transparent;
+}
+td{
+    display: inline;
+    width: 50%; 
+        /* border-color: inherit; */
+   border-style:transparent;
 }

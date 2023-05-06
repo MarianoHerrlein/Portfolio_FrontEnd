@@ -17,9 +17,14 @@
                 </div>
                 <div class="form-group">
                     <label for="img">imagen de la persona</label>
-                    <input type="file" class="form-control" id="img" name="img" [(ngModel)]="persona.img" (change)="uploudimagen($event)"
+                    <input type="file" class="form-control" id="img" name="img" [(ngModel)]="persona.img" (change)="uploudImagen($event)"
                     accept=".jpg, .jpeg, .png" >
                 </div>
+                <div class="imagen">
+                    <img [src]="imagenService.url" width="200Px">
+                </div>
+                <h1></h1>
+                <h1></h1>
                 <button class="btn btn-primary">
                     Actualizar
                 </button>

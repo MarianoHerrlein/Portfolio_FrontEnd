@@ -9,3 +9,16 @@ div{
 h1,h3{
     display: inline;
 }
+.table{
+    display: inline;
+    
+     width: 50%; 
+  ;
+}
+td{
+    
+    display: inline;
+    width: 50%; 
+        /* border-color: inherit; */
+   border-style:transparent;
+}
