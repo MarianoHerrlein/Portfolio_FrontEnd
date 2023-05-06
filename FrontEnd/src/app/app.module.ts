@@ -26,6 +26,8 @@ import { EditPersonaComponent } from './components/acerca-de/edit-persona.compon
 import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
 import { provideStorage,getStorage } from '@angular/fire/storage';
+import { EditHysComponent } from './components/hard-soft/edit-hys.component';
+import { NewHysComponent } from './components/hard-soft/new-hys.component';
 
 @NgModule({
   declarations: [
@@ -46,6 +48,8 @@ import { provideStorage,getStorage } from '@angular/fire/storage';
     NewEducacionComponent,
     EditEducacionComponent,
     EditPersonaComponent,
+    EditHysComponent,
+    NewHysComponent,
    
   ],
   imports: [
