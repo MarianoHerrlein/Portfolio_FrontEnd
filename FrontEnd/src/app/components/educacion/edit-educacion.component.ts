@@ -44,6 +44,4 @@ export class EditEducacionComponent implements OnInit {
     )
   }
 
-}{
-
 }
