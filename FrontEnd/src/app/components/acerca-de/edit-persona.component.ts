@@ -22,7 +22,7 @@ constructor(private personaService: PersonaService , private activatedRouter: Ac
         this.persona = data;
       },
       error: err => {
-        alert("Error al modificar educacion");
+        alert("Error al modificar proyecto");
         this.router.navigate(['']);
       }}
   )

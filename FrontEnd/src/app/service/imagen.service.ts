@@ -27,5 +27,12 @@ getImagen(){
   })
   .catch(error => console.log(error));
 }
-}
-
+public uploudImagen2($event:any, name:string){
+  const file=$event.target.files[0] 
+  const imagref=ref(this.storage, 'imagen/' + name)
+  uploadBytes(imagref, file)
+  .then(response => this.getImagen())
+  .catch(error => console.log(error));
+      
+    }
+  }

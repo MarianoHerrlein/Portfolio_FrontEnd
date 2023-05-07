@@ -9,6 +9,10 @@ import { EditHysComponent } from './components/hard-soft/edit-hys.component';
 import { NewHysComponent } from './components/hard-soft/new-hys.component';
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
+import { EditProyectoComponent } from './components/proyecto/edit-proyecto.component';
+import { NewProyectoComponent } from './components/proyecto/new-proyecto.component';
+import { Proyecto } from './model/proyecto';
+
 
 
 const routes: Routes = [
@@ -21,7 +25,9 @@ const routes: Routes = [
   {path:'editedu/:id', component:EditEducacionComponent},
   {path:'editpers/:id',component:EditPersonaComponent},
   {path:'edithys/:id', component:EditHysComponent},
-  {path:'newhys', component:NewHysComponent}
+  {path:'newhys', component:NewHysComponent},
+  {path:'nuevoproy', component:NewProyectoComponent},
+  {path:'editproy/:id', component:EditProyectoComponent}
 
 
 ];

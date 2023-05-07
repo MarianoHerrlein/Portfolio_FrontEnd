@@ -28,6 +28,8 @@ import { environment } from '../environments/environment';
 import { provideStorage,getStorage } from '@angular/fire/storage';
 import { EditHysComponent } from './components/hard-soft/edit-hys.component';
 import { NewHysComponent } from './components/hard-soft/new-hys.component';
+import { EditProyectoComponent } from './components/proyecto/edit-proyecto.component';
+import { NewProyectoComponent } from './components/proyecto/new-proyecto.component';
 
 @NgModule({
   declarations: [
@@ -50,6 +52,8 @@ import { NewHysComponent } from './components/hard-soft/new-hys.component';
     EditPersonaComponent,
     EditHysComponent,
     NewHysComponent,
+    EditProyectoComponent,
+    NewProyectoComponent,
    
   ],
   imports: [
