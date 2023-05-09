@@ -8,7 +8,7 @@ import { Educacion } from '../model/educacion';
   providedIn: 'root'
 })
 export class SEducacionService {
-  eduURL = 'Http://localhost:8080/educacion/'
+  eduURL = 'https://backendhm.onrender.com/'
   constructor(private httpClient : HttpClient) { }
 
   public lista(): Observable<Educacion[]>{
