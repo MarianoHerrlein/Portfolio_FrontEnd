@@ -1,9 +1,7 @@
-
 .row{
-
+    margin: 0%;
     padding: 20px;
 }
-
 .circulo{
     display: flex;
     flex-direction: column;

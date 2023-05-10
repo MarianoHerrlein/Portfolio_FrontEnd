@@ -8,7 +8,7 @@ import { Hys } from '../model/hys';
 })
 export class HysService {
 
-  URL = 'https://backendhm.onrender.com/'
+  URL = 'https://backendhm.onrender.com/hys/'
   constructor(private httpClient : HttpClient) { }
 
   public lista(): Observable<Hys[]>{
