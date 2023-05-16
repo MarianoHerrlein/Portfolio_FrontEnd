@@ -1,7 +1,7 @@
 <div class="row">
     <h1>Proyectos</h1>
     <div class="col-lg-2">
-        <button type="button" class="btn btn-dark"  *ngIf="isLogger" routerLink="/nuevoproy" >
+        <button type="button" class="btn btn-dark"  *ngIf="isLogger" routerLink="/hsdhs_fhdsrfh3423_ew2323" >
             Nuevo proyecto
         </button>
     </div>
@@ -13,16 +13,16 @@
                     <td>
                         <h2>{{proyecto.nombre}}</h2>
                     </td>
-                    <td>{{proyecto.descripcion}}</td>
+                    <td>{{proyecto.link}}</td>
                     
                     <td>
                         <div class="col-sm-12 col-md-3 col-lg-3 offset-md-1 offset-lg-1 parte2">
-                            <a href="{{proyecto.link}}"><img src="{{proyecto.img}}" class="img-fluid img-proyect"></a>
+                            <a href="proyecto.descripcion"><img [src]="proyecto.img" class="img-fluid img-proyect"></a>
                            
                       
                     </div></td>
                     <td *ngIf="isLogger">
-                        <button class="btn btn-info" routerLink="/editproy/{{proyecto.id}}">
+                        <button class="btn btn-info" routerLink="/agbgld-dasgdsa323edsgf13-13/{{proyecto.id}}">
                             <i class="bi bi-pencil-fill"></i></button>
                     </td>
                     <td *ngIf="isLogger">

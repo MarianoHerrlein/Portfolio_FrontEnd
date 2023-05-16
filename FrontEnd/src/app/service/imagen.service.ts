@@ -26,7 +26,7 @@ getImagen(){
     
   })
   .catch(error => console.log(error));
-}
+}/*
 public uploudImagen2($event:any, name:string){
   const file=$event.target.files[0] 
   const imagref=ref(this.storage, 'imagen/' + name)
@@ -34,5 +34,5 @@ public uploudImagen2($event:any, name:string){
   .then(response => this.getImagen())
   .catch(error => console.log(error));
       
-    }
+    }*/
   }

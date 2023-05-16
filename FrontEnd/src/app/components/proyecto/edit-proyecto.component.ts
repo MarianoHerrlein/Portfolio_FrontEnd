@@ -40,10 +40,10 @@ export class EditProyectoComponent implements OnInit{
     )
   }
   
-  
+  /*
   uploudImagen2($event:any){
     const id=this.activatedRouter.snapshot.params['id'];
    const name="proyecto_"+id;
     this.imagenService.uploudImagen2($event, name);
-  }
+  }*/
   }
